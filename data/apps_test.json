@@ -1,0 +1,212 @@
+[
+  {
+    "id": 1,
+    "category": "CRM and Sales",
+    "app": "Salesforce",
+    "starting_url": "https://developer.salesforce.com/docs/platform/api-rest/guide/quickstart.html",
+    "page_title": "",
+    "description": "",
+    "http_status": "",
+    "auth_methods": "Not verified",
+    "self_serve_vs_gated": "Not verified",
+    "api_surface": "Not verified",
+    "mcp_support": "Not verified",
+    "buildability_verdict": "Needs research",
+    "main_blocker": "",
+    "evidence_urls": [
+      "https://www.salesforce.com/"
+    ],
+    "research_status": "Not researched",
+    "human_verified": false,
+    "notes": ""
+  },
+  {
+    "id": 2,
+    "category": "CRM and Sales",
+    "app": "HubSpot",
+    "starting_url": "https://www.hubspot.com/",
+    "page_title": "",
+    "description": "",
+    "http_status": "",
+    "auth_methods": "Not verified",
+    "self_serve_vs_gated": "Not verified",
+    "api_surface": "Not verified",
+    "mcp_support": "Not verified",
+    "buildability_verdict": "Needs research",
+    "main_blocker": "",
+    "evidence_urls": [
+      "https://www.hubspot.com/"
+    ],
+    "research_status": "Not researched",
+    "human_verified": false,
+    "notes": ""
+  },
+  {
+    "id": 3,
+    "category": "CRM and Sales",
+    "app": "Pipedrive",
+    "starting_url": "https://www.pipedrive.com/",
+    "page_title": "",
+    "description": "",
+    "http_status": "",
+    "auth_methods": "Not verified",
+    "self_serve_vs_gated": "Not verified",
+    "api_surface": "Not verified",
+    "mcp_support": "Not verified",
+    "buildability_verdict": "Needs research",
+    "main_blocker": "",
+    "evidence_urls": [
+      "https://www.pipedrive.com/"
+    ],
+    "research_status": "Not researched",
+    "human_verified": false,
+    "notes": ""
+  },
+  {
+    "id": 4,
+    "category": "CRM and Sales",
+    "app": "Attio",
+    "starting_url": "https://attio.com/",
+    "page_title": "",
+    "description": "",
+    "http_status": "",
+    "auth_methods": "Not verified",
+    "self_serve_vs_gated": "Not verified",
+    "api_surface": "Not verified",
+    "mcp_support": "Not verified",
+    "buildability_verdict": "Needs research",
+    "main_blocker": "",
+    "evidence_urls": [
+      "https://attio.com/"
+    ],
+    "research_status": "Not researched",
+    "human_verified": false,
+    "notes": ""
+  },
+  {
+    "id": 5,
+    "category": "CRM and Sales",
+    "app": "Twenty",
+    "starting_url": "https://twenty.com/",
+    "page_title": "",
+    "description": "",
+    "http_status": "",
+    "auth_methods": "Not verified",
+    "self_serve_vs_gated": "Not verified",
+    "api_surface": "Not verified",
+    "mcp_support": "Not verified",
+    "buildability_verdict": "Needs research",
+    "main_blocker": "",
+    "evidence_urls": [
+      "https://twenty.com/"
+    ],
+    "research_status": "Not researched",
+    "human_verified": false,
+    "notes": ""
+  },
+  {
+    "id": 6,
+    "category": "CRM and Sales",
+    "app": "Podio",
+    "starting_url": "https://podio.com/",
+    "page_title": "",
+    "description": "",
+    "http_status": "",
+    "auth_methods": "Not verified",
+    "self_serve_vs_gated": "Not verified",
+    "api_surface": "Not verified",
+    "mcp_support": "Not verified",
+    "buildability_verdict": "Needs research",
+    "main_blocker": "",
+    "evidence_urls": [
+      "https://podio.com/"
+    ],
+    "research_status": "Not researched",
+    "human_verified": false,
+    "notes": ""
+  },
+  {
+    "id": 7,
+    "category": "CRM and Sales",
+    "app": "Zoho CRM",
+    "starting_url": "https://www.zoho.com/crm/",
+    "page_title": "",
+    "description": "",
+    "http_status": "",
+    "auth_methods": "Not verified",
+    "self_serve_vs_gated": "Not verified",
+    "api_surface": "Not verified",
+    "mcp_support": "Not verified",
+    "buildability_verdict": "Needs research",
+    "main_blocker": "",
+    "evidence_urls": [
+      "https://www.zoho.com/crm/"
+    ],
+    "research_status": "Not researched",
+    "human_verified": false,
+    "notes": ""
+  },
+  {
+    "id": 8,
+    "category": "CRM and Sales",
+    "app": "Close",
+    "starting_url": "https://close.com/",
+    "page_title": "",
+    "description": "",
+    "http_status": "",
+    "auth_methods": "Not verified",
+    "self_serve_vs_gated": "Not verified",
+    "api_surface": "Not verified",
+    "mcp_support": "Not verified",
+    "buildability_verdict": "Needs research",
+    "main_blocker": "",
+    "evidence_urls": [
+      "https://close.com/"
+    ],
+    "research_status": "Not researched",
+    "human_verified": false,
+    "notes": ""
+  },
+  {
+    "id": 9,
+    "category": "CRM and Sales",
+    "app": "Copper",
+    "starting_url": "https://www.copper.com/",
+    "page_title": "",
+    "description": "",
+    "http_status": "",
+    "auth_methods": "Not verified",
+    "self_serve_vs_gated": "Not verified",
+    "api_surface": "Not verified",
+    "mcp_support": "Not verified",
+    "buildability_verdict": "Needs research",
+    "main_blocker": "",
+    "evidence_urls": [
+      "https://www.copper.com/"
+    ],
+    "research_status": "Not researched",
+    "human_verified": false,
+    "notes": ""
+  },
+  {
+    "id": 10,
+    "category": "CRM and Sales",
+    "app": "DealCloud",
+    "starting_url": "https://api.docs.dealcloud.com/",
+    "page_title": "",
+    "description": "",
+    "http_status": "",
+    "auth_methods": "Not verified",
+    "self_serve_vs_gated": "Not verified",
+    "api_surface": "Not verified",
+    "mcp_support": "Not verified",
+    "buildability_verdict": "Needs research",
+    "main_blocker": "",
+    "evidence_urls": [
+      "https://api.docs.dealcloud.com/"
+    ],
+    "research_status": "Not researched",
+    "human_verified": false,
+    "notes": ""
+  }
+]

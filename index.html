@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>AppIntel AI — Research Case Study</title>
+    <style>
+        :root {
+            --bg: #0b1020;
+            --panel: #141c31;
+            --line: #283653;
+            --text: #eef3ff;
+            --muted: #aab7d0;
+            --accent: #7dd3fc
+        }
+
+        * {
+            box-sizing: border-box
+        }
+
+        body {
+            margin: 0;
+            background: linear-gradient(140deg, #0b1020, #101a30);
+            color: var(--text);
+            font: 15px/1.55 Inter, system-ui, Arial
+        }
+
+        main {
+            max-width: 1180px;
+            margin: auto;
+            padding: 38px 22px
+        }
+
+        h1 {
+            font-size: clamp(32px, 5vw, 54px);
+            line-height: 1.05;
+            margin: 8px 0 14px
+        }
+
+        .eyebrow {
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: .14em;
+            font-size: 12px;
+            font-weight: 700
+        }
+
+        .lead {
+            color: var(--muted);
+            max-width: 760px
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+            gap: 14px;
+            margin: 28px 0
+        }
+
+        .card,
+        section {
+            background: var(--panel);
+            border: 1px solid var(--line);
+            border-radius: 16px;
+            padding: 20px
+        }
+
+        .metric {
+            font-size: 30px;
+            font-weight: 800
+        }
+
+        .muted {
+            color: var(--muted)
+        }
+
+        h2 {
+            margin-top: 0
+        }
+
+        section {
+            margin: 18px 0
+        }
+
+        .steps {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+            gap: 12px
+        }
+
+        .step {
+            border: 1px solid var(--line);
+            padding: 14px;
+            border-radius: 12px
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 13px
+        }
+
+        th,
+        td {
+            text-align: left;
+            padding: 10px;
+            border-bottom: 1px solid var(--line)
+        }
+
+        th {
+            color: var(--accent)
+        }
+
+        input {
+            width: 100%;
+            padding: 11px;
+            border-radius: 9px;
+            border: 1px solid var(--line);
+            background: #0b1020;
+            color: white;
+            margin: 8px 0 14px
+        }
+
+        .pill {
+            display: inline-block;
+            border: 1px solid var(--line);
+            padding: 3px 9px;
+            border-radius: 30px;
+            color: var(--muted);
+            font-size: 12px
+        }
+
+        footer {
+            color: var(--muted);
+            padding: 25px 0
+        }
+
+        a {
+            color: var(--accent)
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="eyebrow">AI Product Operations · Take-home</div>
+        <h1>AppIntel AI</h1>
+        <p class="lead">A source-first workflow to map 100 SaaS and developer apps into integration-readiness evidence.
+            This page is a working case-study shell: replace the clearly marked placeholders with verified findings
+            before submission.</p>
+        <div class="grid">
+            <div class="card">
+                <div class="metric">100</div>
+                <div class="muted">Apps in the supplied research set</div>
+            </div>
+            <div class="card">
+                <div class="metric">10</div>
+                <div class="muted">Product categories</div>
+            </div>
+            <div class="card">
+                <div class="metric">Not measured</div>
+                <div class="muted">Verified accuracy reported so far</div>
+            </div>
+            <div class="card">
+                <div class="metric">10/10 Partial</div>
+                <div class="muted">Human evidence review</div>
+            </div>
+        </div>
+        <section>
+            <h2>Executive findings</h2>
+            <p>
+                The research covered 100 apps across 10 product categories.
+                The automated collector successfully retrieved 91 app homepages
+                in the November 24 run. It identified keyword signals for
+                authentication (44 apps), API access (38 apps), API surface
+                (33 apps) and MCP (30 apps). These are automated signals,
+                not confirmed capabilities.
+            </p>
+
+            <p>
+                A manual review sample of 10 apps examined authentication,
+                access requirements, API availability and MCP evidence.
+                All 10 remain partially verified because the automated
+                collection did not establish every finding independently.
+                Official documentation was used to check the reviewed details.
+            </p>
+
+            <p class="pill">
+                Current status: 100 apps researched; 10 manually reviewed;
+                accuracy percentage not yet established.
+            </p>
+        </section>
+        <section>
+            <h2>Research workflow</h2>
+            <div class="steps">
+                <div class="step"><b>1 · Seed</b>
+                    <p class="muted">Load the exact 100 apps and official starting URLs from the assignment.</p>
+                </div>
+                <div class="step"><b>2 · Discover</b>
+                    <p class="muted">Fetch page metadata and flag API, OAuth, API-key, GraphQL and MCP references.</p>
+                </div>
+                <div class="step"><b>3 · Verify</b>
+                    <p class="muted">Open official developer docs; record explicit auth, access requirements, API scope
+                        and MCP evidence.</p>
+                </div>
+                <div class="step"><b>4 · Synthesize</b>
+                    <p class="muted">Cluster verified rows, calculate category patterns and publish only supported
+                        conclusions.</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2>App research tracker</h2>
+            <p class="muted">Upload or place <code>reports/apps_enriched.csv</code> next to this page and use the source
+                repository data. This static starter lists all 100 apps; fields are intentionally marked unverified.</p>
+            <input id="search" placeholder="Filter by app or category…">
+            <div style="overflow:auto">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>App</th>
+                            <th>Category</th>
+                            <th>Starting evidence</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody id="rows"></tbody>
+                </table>
+            </div>
+        </section>
+        <section>
+            <h2>Verification and limitations</h2>
+            <p>First pass: metadata and keyword signals only. These signals are not evidence that a product supports a
+                particular auth flow or that an API is generally available. Human verification must inspect official
+                documentation and record the exact supporting URLs. Report the sample size, correct/incorrect claims,
+                misses and revised accuracy after review.</p>
+        </section>
+        <footer>Built for the Composio AI Product Ops research exercise · Update this page with verified results before
+            sharing.</footer>
+    </main>
+    < <script>
+        const REPORT_FILE = './apps_evidence_v4_20261124_231746_001.json';
+
+        const body = document.getElementById('rows');
+        const search = document.getElementById('search');
+        let apps = [];
+
+        function escapeHTML(value) {
+        return String(value ?? '').replace(/[&<>"']/g, char => ({
+            '&': '&amp;',
+            '<': '&lt;' , '>' : '&gt;' , '"' : '&quot;' , "'" : '&#39;' })[char]); } function render() { const
+                query=search.value.toLowerCase(); body.innerHTML=apps .filter(app=>
+                (app.app + ' ' + app.category).toLowerCase().includes(query)
+                )
+                .map(app => {
+                const evidenceUrl =
+                (app.evidence_urls || [])[0] || app.starting_url || '#';
+
+                const findings = [
+                app.authentication_status,
+                app.api_access_status,
+                app.api_surface_status,
+                app.mcp_status
+                ].filter(status => status === 'EVIDENCE_FOUND').length;
+
+                return `
+                <tr>
+                    <td>${escapeHTML(app.id)}</td>
+                    <td>${escapeHTML(app.app)}</td>
+                    <td>${escapeHTML(app.category)}</td>
+                    <td><a href="${escapeHTML(evidenceUrl)}" target="_blank" rel="noopener noreferrer">Open evidence
+                            ↗</a></td>
+                    <td><span class="pill">
+                            ${escapeHTML(app.research_status)} · ${findings}/4 signals
+                        </span></td>
+                </tr>`;
+                }).join('');
+                }
+
+                fetch(REPORT_FILE)
+                .then(response => {
+                if (!response.ok) throw new Error('Could not load the November 24 report.');
+                return response.json();
+                })
+                .then(data => {
+                apps = data;
+                render();
+                })
+                .catch(error => {
+                body.innerHTML = `<tr>
+                    <td colspan="5">${escapeHTML(error.message)}</td>
+                </tr>`;
+                console.error(error);
+                });
+
+                search.addEventListener('input', render);
+                </script>
+</body>
+
+</html>
+</body>
+
+</html>
